@@ -2,7 +2,7 @@
 git add
 git init
 git push
-git git status
+git status
 git log
 git remote add origin git@github.com:SSAntonioSS/Atividade1.git
 git remote -v
