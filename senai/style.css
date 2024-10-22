@@ -1,0 +1,20 @@
+ body {
+    background-color: #204245;
+ }
+ .logo {
+    
+ }
+ .container {
+    background-color: #1F2830; /* Cor de fundo */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+}
+
+.entry {
+    background-color: #204245; /* Cor de fundo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.footer {
+    background-color:black;
+}
