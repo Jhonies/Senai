@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minha Página</title>
+    <body>
+           <div class="entry">
+            <img src="logo.png" class="logo">
+            <h1> Site de eletrônicos </h1>
+        <title>Nome da loja</title>
+        <p> Entre </p>
+        <p> Cadastre-se </p>
+    </div> 
+       <div class="container"> <p> Para voce</p>
+        <section>
+        <p>Descontos</p>
+        <p>Promoções</p>
+        <p>Computador</p>
+        <p>Games</p>
+        <p>Recomendações</p>
+    </section>
+    <section>
+        </div><img src="descontos.png" class="descontos">
+        <p> Texto de descontos </p>
+        <img src="descontos_promoções.png" class="descontos_promoções">
+        <img src="promoções.png" class="promoções">
+        <p> Texto de descontos </p>
+    </section>
+    <section>
+        <div class="loja">
+            <h1> Recomendados para você</h1>
+        </div>
+        <div class="produtos">
+        </div>
+    </section>
+    </div>
+    <div class="footer">
+    <footer>
+        <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
+        <p>Política de Privacidade | Termos de Uso</p>
+    </footer>
+</div>
+    </body>
+</head>
+</html>
