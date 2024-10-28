@@ -5,32 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Minha Página</title>
-    <body>
-           <div class="entry">
+    <link rel="icon" href="favicon-16x16.png" sizes="16x16" type="image/png">
+<body>
+    <header>
+        <div class="entry">
             <img src="logo.png" class="logo">
-            <h1> Site de eletrônicos </h1>
-        <title>Nome da loja</title>
-        <p> Entre </p>
-        <p> Cadastre-se </p>
+            <h1 class="titulo"> Site de eletrônicos </h1>
+            <div class="login">
+                <img src="foto-perfil.jpg" alt="Foto da Pessoa" class="foto-perfil">
+                <a href="C:/Users/vlope/OneDrive/%C3%81rea%20de%20Trabalho/senaihtml/pag_login/login.html" target="_blank" class="entre"> Entre </a>
+                <a href="C:\Users\vlope\OneDrive\Área de Trabalho\senaihtml\pag_cadastro\cadastro.html" target="_blank" class="cadastro"> Cadastre-se </a>
+            </div>
+    </header>
+        <div class="pesquisa">
+<input type="text" placeholder="Busque aqui seu produto..." class="campo-pesquisa">
+<button type="submit" class="botao-pesquisa">
+</button>       
+</div>
     </div> 
-       <div class="container"> <p> Para voce</p>
-        <section>
-        <p>Descontos</p>
-        <p>Promoções</p>
-        <p>Computador</p>
-        <p>Games</p>
-        <p>Recomendações</p>
-    </section>
-    <section>
-        </div><img src="descontos.png" class="descontos">
-        <p> Texto de descontos </p>
-        <img src="descontos_promoções.png" class="descontos_promoções">
-        <img src="promoções.png" class="promoções">
-        <p> Texto de descontos </p>
-    </section>
-    <section>
+    <nav class="navbar">
+        <a href="#">Para você</a>
+        <a href="#">Descontos</a>
+        <a href="#">Promoção</a>
+        <a href="#">Computador</a>
+        <a href="#">Games</a>
+        <a href="#">Recomendações</a>
+    </nav>
+
+    <div class="main-content">
+        <div class="content-box">
+            <img src="descontos.png" alt="Teclado e Mouse" class="content-image">
+            <p class="descontos-text">Texto de descontos</p>
+        </div>
+
+        <div class="content-box central">
+            <img src="descontos_promoções.png" alt="Descontos em Games" class="content-image">
+            <p class="descontos-text">Descontos em Games</p>
+        </div>
+
+        <div class="content-box">
+            <img src="promoções.png" alt="Notebook" class="content-image">
+            <p class="descontos-text">Texto de descontos</p>
+        </div>
+    </div>
         <div class="loja">
-            <h1> Recomendados para você</h1>
+            <h1 class="titulo-loja"> Recomendados para você</h1>
         </div>
         <div class="produtos">
         </div>
@@ -41,7 +60,10 @@
         <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
         <p>Política de Privacidade | Termos de Uso</p>
     </footer>
-</div>
+    </div>
+</body>
+</head>
+</html>
     </body>
 </head>
 </html>
