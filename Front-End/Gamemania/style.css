@@ -162,7 +162,9 @@ text-decoration: none;
 
 .descontos-text {
  font-family:Arial, Helvetica, sans-serif;
+ font-size: 100%;
 }
+
 .loja {
 margin-top: 60px;
 }
@@ -178,4 +180,7 @@ margin-top: 60px;
     align-content: bottom;
     display: flex;
     border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }

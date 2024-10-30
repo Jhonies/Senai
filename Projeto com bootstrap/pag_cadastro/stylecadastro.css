@@ -55,7 +55,9 @@ margin-top: 20px;
     justify-content: left;
     margin-bottom: 0px;
  }
-
- .checkbox {
-   margin-top: 20px;
+ 
+ .senha-text-confirm {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 0px;
  }
