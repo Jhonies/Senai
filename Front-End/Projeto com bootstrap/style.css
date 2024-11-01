@@ -7,9 +7,18 @@
     margin-top: 10px;
  }
  .logo {
-    width: 7%;
-    height: 7%;
+    width: 50%;
+    height: auto;
+    max-width: 100px;
  }
+
+ @media (min-width:1000px) {
+   .foto-perfil a {
+      max-width: 75px;
+      min-height: 75px;
+   }
+ }
+
 
  .foto-perfil {
     width: 75px;
@@ -18,9 +27,19 @@
     border-radius: 50%;
     object-fit: cover;
  }
+
+
  .foto-perfil:hover {
     opacity: 10%;
  }
+
+ .central-content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-left: -80px;
+}
 
 .pesquisa {
     display: flex;

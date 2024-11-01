@@ -10,21 +10,32 @@
 </head>
 <body>
     <header>
+        <div class="container-fluid p-3">
+            <div class="row align-items-center">
         <div class="entry">
+            <div class="col-md-2 text-left">
             <img src="logo.png" class="logo">
+        </div>
+        <div class="col-md-8 text-center central-content">
             <h1 class="titulo"> Gamemania </h1>
+            <form class="form-inline justify-content-center mt-2">
+                <input class="form-control w-75" type="search" placeholder="Pesquisar..." aria-label="Pesquisar">
+                <button class="btn btn-primary ml-2" type="submit">Pesquisar</button>
+            </form>
+        </div>
             <div class="login">
+                <div class="col-md-3 col-sm-12 user-info d-flex flex-column align-items-center align-items-md-end">
+                    <div class="mb-2">
                 <img src="foto-perfil.jpg" alt="Foto da Pessoa" class="foto-perfil">
+            </div>
+                <div class="user-links d-flex flex-column align-items-center align-items-md-start">
                 <a href="pag_login/login.html" target="_blank" class="entre"> Entre </a>
                 <a href="pag_cadastro/cadastro.html" target="_blank" class="cadastro"> Cadastre-se </a>
             </div>
-    </header>
-        <div class="pesquisa">
-<input type="text" placeholder="Busque aqui seu produto..." class="campo-pesquisa">
-<button type="submit" class="botao-pesquisa">
-</button>       
-</div>
-    </div> 
+            </div>
+        </div>
+    </div>
+    </header> 
     <nav class="navbar">
         <a href="#">Para você</a>
         <a href="#">Descontos</a>
