@@ -1,10 +1,12 @@
 html {
    scroll-behavior: smooth;
+   width: 100%;
  }
  
  body {
     background-color: #204245;
     color: white;
+    width: 100%;
  }
 
  .titulo {
@@ -174,6 +176,46 @@ font-family: Arial, Helvetica, sans-serif;
  font-size: 100%;
 }
 
+.circle-produtos {
+   display: flex;                    
+  justify-content: center;            
+  gap: 20px;              
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.link-circle {
+   text-align: center;
+  text-decoration: none;         
+  color: black;  
+}
+
+.link-circle:hover {
+   color: #FFFFFF;                       
+ }
+
+.cicle {
+   width: auto;                       
+   height: 20px;
+   border-radius: 50%;                 
+   overflow: hidden;                   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid #ccc;
+}
+
+.circle:hover {
+   opacity: 70%;
+}
+
+.circle img {
+   width: 35%;                        
+   height: 50%;
+   object-fit: cover;
+   border-radius: 50%;
+}
+
 .loja {
 margin-top: 60px;
 }
@@ -181,6 +223,68 @@ margin-top: 60px;
 .titulo-loja {
    font-size: 150%;
    font-family: Arial, Helvetica, sans-serif;
+}
+
+.empty-img {
+   width: 80%;
+}
+
+.notebook-loja {
+   display:flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.teclados-loja {
+   display:flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.monitores-loja {
+   display:flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.headsets-loja {
+   display:flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.mousepads-loja {
+   display:flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.computadores-loja {
+   display:flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.processadores-loja {
+   display:flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.placas-loja {
+   display:flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.games-loja {
+   display:flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.produto-vert {
+   text-align: center;
 }
 
 .produtos {
