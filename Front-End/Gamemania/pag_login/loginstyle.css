@@ -9,6 +9,7 @@ html, body {
     place-items: center;
     height: 100vh;
 }
+
 body {
      background-color: #204245;
      align-content: center;
@@ -24,6 +25,12 @@ body {
     font-family: Arial, sans-serif;
  }
 
+ .login  {
+   margin-top: 30px;
+    font-size:x-large;
+    margin-bottom: 20px;
+ }
+
  .caixa-de-texto {
     display: grid;
     grid-template-rows: auto auto;
@@ -32,15 +39,12 @@ body {
  }
 
  .senha {
-    border-radius: 5px 5px 5px 5px;
     border: #3ceb70;
 margin-top: 20px;
  }
 
  .email {
     border: #3ceb70;
-    border-radius: 5px 5px 5px 5px;
-
  }
 
  .email-text {
@@ -49,6 +53,11 @@ margin-top: 20px;
     margin-left: 50px;
     margin-bottom: -30px;
  }
+ 
+ .email:focus {
+   outline: none;
+ }
+
 
  .senha-text {
     display: flex;
@@ -56,6 +65,22 @@ margin-top: 20px;
     margin-bottom: 0px;
  }
 
+ .senha:focus {
+   outline: none;
+ }
+
+ .button-confirm {
+   border-radius: 4px 4px 4px 4px;
+   margin-top: 10px;
+   padding: 1px 20px;
+   border: none;
+   background-color: #3ceb70;
+   color: #FFFFFF;
+ }
+
+ .button-confirm:hover {
+   background-color: #204245;
+ }
+
  .checkbox {
-   margin-top: 20px;
  }
