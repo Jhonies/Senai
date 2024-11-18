@@ -1,15 +1,10 @@
+const carrosselInner = document.getElementById('carrossel');
+const imagens = carrosselInner.getElementsByTagName('img');
 let currentIndex = 0;
-const images = document.querySelectorAll(".carousel img");
+const totalImagens = imagens.length;
 
-function showNextImage() {
-    images.forEach((img, index) => {
-        img.classList.remove("active");
-        if (index === currentIndex) {
-            img.classList.add("active");
-        }
-    });
-    currentIndex = (currentIndex + 1) % images.length;
+function moveCarrossel() {
+    currentIndex = (currentIndex + 3) % totalImagens; // Incrementa o índice e volta ao início
+    const offset = -currentIndex * 33.3%; // Calcula o deslocamento
+    carrosselInner.style.transform = `translateX(${offset}%)`; // Move o carrossel
 }
-
-setInterval(showNextImage, 3000); // Alterna a cada 3 segundos
-
