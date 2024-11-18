@@ -23,6 +23,11 @@ body {
     justify-content: center;
     font-family: Arial, sans-serif;
  }
+ .cadastro {
+   margin-top: 20px;
+   margin-bottom: 15px;
+   font-size:x-large;
+ }
 
  .caixa-de-texto {
     display: grid;
