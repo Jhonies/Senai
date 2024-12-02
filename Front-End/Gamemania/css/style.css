@@ -9,6 +9,7 @@ html {
     color: white;
     width: 100%;
     margin-left: 0px;
+    padding: 10px;
  }
 
  .titulo {
@@ -16,68 +17,61 @@ html {
  }
 
  .logo {
-    width: 7%;
-    height: 7%;
-    border-radius: 20%;
+   margin-top: -10px;
+    width: 8%;
+    height: 8%;
  }
 
  .gamemania-write {
    margin-left: -15px;
-   height: 35%;
-   width: 35%;
+   height: 20%;
+   width: 20%;
    border-radius: 20px 20px 20px 20px;
-   margin-bottom: 70px;
  }
 
-.pesquisa {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
+ .search-bar-container {
+   display: flex;
+   align-items: center;
+   background-color: #fff;
+   border-radius: 25px;
+   padding: 5px 15px;
+   max-width: 400px;
+   max-height: 50px;
+   width: 60%;
+   height: 30px;
+   margin-top: 30px;
+   margin-left: -60px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.campo-pesquisa {
-    background-color: #204245;
-    width: 100%;
-    height: 10%;
-    padding: 15px;
-    border: 1px solid #FFFFFF;
-    border-radius: 20px 0 0 20px;
-    font-size: 10px;
-    margin-top: -60px;
-    color: #FFFFFF;
-    flex: 1;
-    max-width: 400px;
-    display: flex;
-}
-
-.campo-pesquisa:focus {
-   background-color: #222; 
-   color: #fff; 
-   border-color: #fff; 
+.search-bar-container input {
+   border: none;
    outline: none;
+   flex: 1;
+   padding: 10px;
+   font-size: 16px;
+   color: #333;
+   background: transparent;
 }
 
-.botao-pesquisa {
-    padding: 14px 20px;
-    background-color: #204245;
-    color:white;
-    border: 1px solid white;
-    border-left: none;
-    border-radius: 0 20px 20px 0;
-    cursor: pointer;
-    display: flex;
-    font-size: 1px;
-    align-items: center;
-    justify-content: center;
-    background-image: url(img/lupa-2);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: -60px;
-    margin-bottom: 17px;
+.search-bar-container input::placeholder {
+   color: #999;
 }
-.botao-pesquisa:hover {
-    opacity: 50%;
+
+.search-bar-container button {
+   border: none;
+   background: none;
+   padding: 5px;
+   cursor: pointer;
+   color: #333;
+   font-size: 18px;
+   margin-top: -2px;
+}
+
+.search-bar-container button img.search-icon {
+   width: 20px;
+   height: 20px;
+   object-fit: contain;
 }
 
 .icone-botão {
@@ -85,67 +79,64 @@ html {
  height: 20px;
 }
 
-@media (max-width: 768px) {
-   .search-bar {
-       max-width: 100%;
-   }
-   
-   .button-group {
-       flex-direction: row;
-       gap: 5px;
-   }
-}
-
  .login {
     align-items: center;
     display: grid;
     grid-template-rows: auto 1fr;
     gap: 10px;
-    margin-top: 30px;
- }
+    margin-top: 25px;
 
- .button-carrinho {
-   background-color: #248424;
-   border-radius: 5px 5px 5px 5px;
-   padding: 5px 8px;
-   cursor: pointer;
-   border: none;
- }
- 
- .carrinho {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   color: #FFFFFF;
-   text-decoration: none;
-   font-size: 100%;
-   font-weight: bold;
  }
 
  .button-login {
-   background-color: #248424;
-   border-radius: 5px 5px 5px 5px;
-   padding: 5px 8px;
+   width: 50px;
+      height: 50px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+ }
+ 
+.button-login img {
+   object-fit: contain;
+   width: 100%;
+   height: 100%;
+}
+
+.icon-button:hover {
+   filter: brightness(0.8);
+ }
+
+  /* Estilo do ícone */
+  .icon {
+   position: relative; /* Necessário para posicionar a janelinha */
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
    cursor: pointer;
-   border: none;
  }
 
- .button-login:hover {
-   filter: brightness(0.70);
+ .tooltip {
+   position: absolute;
+   top: 60px; /* Distância vertical do ícone */
+   left: 50%;
+   transform: translateX(-50%);
+   background-color: #fff;
+   border: 1px solid #ccc;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 8px;
+   padding: 10px;
+   width: 150px;
+   text-align: center;
+   font-size: 14px;
+   opacity: 0; /* Invisível por padrão */
+   visibility: hidden; /* Evita interação quando está oculto */
+   transition: opacity 0.3s ease, visibility 0.3s ease;
+   z-index: 10;
  }
 
- .entre {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 100%;
-    font-weight: bold;
- }
-
- .cadastro {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   color: #FFFFFF;
-   text-decoration: none;
-   font-size: 100%;
-   font-weight: bold;
+ .icon:hover .tooltip {
+   opacity: 1;
+   visibility: visible;
  }
 
 .entry {
@@ -177,6 +168,7 @@ font-family: Arial, Helvetica, sans-serif;
    border-radius: 20px;
    transition: background-color 0.3s ease;
    font-family: Arial, Helvetica, sans-serif;
+   margin: 5px;
 }
 
 .navbar a:hover {
@@ -239,9 +231,6 @@ font-family: Arial, Helvetica, sans-serif;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.link-circle:hover {
-   color: #3ceb70;                       
- }
 
 .cicle {
    width: auto;                       
@@ -255,7 +244,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .circle:hover {
-   opacity: 70%;
+   transform: translateY(-8px)
 }
 
 .circle img {
@@ -267,7 +256,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 .loja {
 margin-top: 60px;
-margin-left: 20px;
+margin: 30px;
 }
 
 .titulo-loja {
@@ -276,17 +265,49 @@ margin-left: 20px;
 }
 
 .empty-img {
-   width: 60%;
+   width: 250px;
+   height: 250px;
    border-radius: 20px 20px 20px 20px;
+   margin-top: 55px;
+   margin-bottom: 75px;
+}
+
+.empty-img:hover {
+  transform: translateY(-5px);
 }
 
 .text-produtos {
- font-size: large;
+ font-size: xx-large;
  font-weight:bold;
 }
 
 .text-produtos-sub {
+   font-size: x-large;
+}
+
+.text-especificações {
+   margin-top: 30px;
    font-size: large;
+   font-weight: lighter;
+   color: black;
+}
+
+.price {
+   font-size: large;
+   color: #4CAF50;
+   align-self: flex-start;
+}
+
+.container-loja {
+   height: 600px;
+   width: 350px;
+   margin-top: 20px;
+   margin-bottom: 130px;
+   background-color: #FFFFFF;
+   border-radius: 15px 15px 15px 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .notebook-loja {
@@ -364,7 +385,7 @@ margin-left: 20px;
     align-content: bottom;
     display: flex;
     border-radius: 5px 5px 5px 5px;
-    padding: 10px;
-    font-size: 15px;
+    padding: 8px;
+    font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }

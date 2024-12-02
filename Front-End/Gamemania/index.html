@@ -9,42 +9,72 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-          background-color: #204245; /* Cor sólida */
-          color: white; /* Texto claro para contraste */
+          background-color: #204245;
+          color: white;
         }
       </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar-expand-lg navbar-dark bg-dark">
         <div class="entry">
-            <img src="img/logo.png" class="logo">
+            <img src="img/logotipo.png" class="logo">
+            <div class="search-bar-container">
+                <input type="text" placeholder="O que deseja?" aria-label="Search">
+                <button type="button">
+                    <img src="img/lupa.svg" alt="Buscar" class="search-icon">
+                </button>
+            </div>
             <img src="img/gamemania-write.png" class="gamemania-write">
             <div class="login">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                <button class="button-carrinho button-login"><a href="#" target=""  class="carrinho">Carrinho</a></button>
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <button class="button-login button-carrinho">
+                    <a href="#" target=""  class="carrinho">
+                        <div class="icon">
+                        <img src="img/carrinho-icon.svg" class="carrinho-icon button-img">
+                        <div class="tooltip">
+                        <p>Adicionar ao carrinho</p>
+                        <p>Ver detalhes</p>
+                      </div>
+                    </div>
+                    </a>
+                </button>
             </li>
                 <li class="nav-item">
-                <button class="button-login"><a href="pag_login/login.html" target="_blank" class="entre"> Entre </a> </button>
-            </li>
+                <button class="button-login button-cadastro"> 
+                    <div class="icon">
+                <img src="img/contato.svg" class="contato-icon button-img">
+                    <div class="tooltip">
+                        <p>@gamamenia</p>
+                      <p>(xx)xxxxx-xxxx</p>
+                        <p>gamemania@mail.com</p>
+                      </div>
+                    </div> 
+                </button>
+                </li>
                 <li class="nav-item">
-                <button class="button-login"><a href="pag_cadastro/cadastro.html" target="_blank" class="cadastro"> Cadastre-se </a> </button>
-            </li>
+                    <button class="button-login button-contato">
+                        <a href="" target="_blank" class="cadastro"> 
+                            <div class="icon">
+                          <img src="img/cadastro-icon.svg" class="cadastro-icon button-img"> 
+                          <div class="tooltip">
+                            <p><a href="pag_cadastro/cadastro.html">Cadastre-se</a></p>
+                            <p><a href="pag_login/login.html">Entre</a></p>
+                          </div>
+                        </div>
+                        </a> 
+                    </button>
+                    </li>
         </ul>
             </div>
         </div>
     </nav>
     </header>
-        <div class="pesquisa">
-<input type="text" placeholder="Busque aqui seu produto..." class="campo-pesquisa">
-<button type="submit" class="botao-pesquisa bu"> 
-</button>       
-</div>
     </div> 
     <nav class="navbar">
         <a href="#">Para você</a>
@@ -61,8 +91,8 @@
             <p class="descontos-text">Texto de descontos</p>
     </div>
         <div class="content-box central">
-            <img src="img/descontos_promoções.png" alt="Descontos em Games" class="content-image">
-            <p class="descontos-text">Descontos em Games</p>
+            <img src="img/interior-loja.png" alt="Interior da loja" class="content-image">
+            <p class="descontos-text">Venha conhecer nossa loja!</p>
         </div>
         <div class="content-box">
             <img src="img/perifericos-descontos.png" alt="Notebook" class="content-image">
@@ -111,223 +141,406 @@
             <section id="secao-notebook">
                 <p class="text-produtos"> Notebooks</p>
             <div class="notebook-loja">
+                <div class="container-loja">
             <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-            <p> (Especificações do produto) </p>
+            <p  class="text-especificações"> (Especificações do produto) </p>
+            <strong class="price">R$XX,XX</strong>
+            <button class="add-carrinho">Adicionar ao carrinho</button>
             </div>
+        </div>
+        <div class="container-loja">
             <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-        <p>(Especificações do produto)</p>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
             </div>
+        </div>
+        <div class="container-loja">
             <div class="produto-vert">
         <a href="" target="_blank">
             <img src="img/empty.jpg" class="empty-img">
         </a>
-    <p>(Especificações do produto)</p>
+    <p class="text-especificações">(Especificações do produto)</p>
+    <strong class="price">R$XX,XX</strong>
+    <button class="add-carrinho">Adicionar ao carrinho</button>
             </div>
-            </div>
+        </div>
+        <div class="container-loja">
+            <div class="produto-vert">
+            <a href="" target="_blank">
+                <img src="img/empty.jpg" class="empty-img">
+            </a>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
+    </div>
+</div>
+    </div>
         </section>
         <section id="secao-perifericos">
             <div class="perifericos-loja">
                 <p class="text-produtos"> Periféricos</p>
             </div>
-
     <div class="perifericos-loja-add">
             <p class="text-produtos-sub"> Teclados </p>
         <div class="teclados-loja">
+            <div class="container-loja">
             <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-            <p> (Especificações do produto) </p>
+            <p class="text-especificações"> (Especificações do produto) </p>
+            <strong class="price">R$XX,XX</strong>
+            <button class="add-carrinho">Adicionar ao carrinho</button>
             </div>
+        </div>
+        <div class="container-loja">
             <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-        <p>(Especificações do produto)</p>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
         </div>
+    </div>
+        <div class="container-loja">
         <div class="produto-vert">
         <a href="" target="_blank">
             <img src="img/empty.jpg" class="empty-img">
         </a>
-    <p>(Especificações do produto)</p>
+    <p class="text-especificações">(Especificações do produto)</p>
+    <strong class="price">R$XX,XX</strong>
+    <button class="add-carrinho">Adicionar ao carrinho</button>
         </div>
+    </div>
+    <div class="container-loja">
+        <div class="produto-vert">
+        <a href="" target="_blank">
+            <img src="img/empty.jpg" class="empty-img">
+        </a>
+    <p class="text-especificações">(Especificações do produto)</p>
+    <strong class="price">R$XX,XX</strong>
+    <button class="add-carrinho">Adicionar ao carrinho</button>
+</div>
+</div>
     </div>
             <p class="text-produtos-sub"> Monitores </p>
             <div class="monitores-loja">
+                <div class="container-loja">
                 <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-            <p> (Especificações do produto) </p>
+            <p class="text-especificações"> (Especificações do produto) </p>
+            <strong class="price">R$XX,XX</strong>
+            <button class="add-carrinho">Adicionar ao carrinho</button>
         </div>
-            <div class="produto-vert">
-            <a href="" target="_blank">
-                <img src="img/empty.jpg" class="empty-img">
-            </a>
-        <p>(Especificações do produto)</p>
     </div>
+    <div class="container-loja">
         <div class="produto-vert">
         <a href="" target="_blank">
             <img src="img/empty.jpg" class="empty-img">
         </a>
-    <p>(Especificações do produto)</p>
+    <p class="text-especificações">(Especificações do produto)</p>
+    <strong class="price">R$XX,XX</strong>
+    <button class="add-carrinho">Adicionar ao carrinho</button>
+</div>
+</div>
+        <div class="container-loja">
+            <div class="produto-vert">
+            <a href="" target="_blank">
+                <img src="img/empty.jpg" class="empty-img">
+            </a>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
+    </div>
+</div>
+    <div class="container-loja">
+        <div class="produto-vert">
+        <a href="" target="_blank">
+            <img src="img/empty.jpg" class="empty-img">
+        </a>
+    <p class="text-especificações">(Especificações do produto)</p>
+    <strong class="price">R$XX,XX</strong>
+    <button class="add-carrinho">Adicionar ao carrinho</button>
   </div>
+</div>
 </div>
         <p class="text-produtos-sub"> Headsets </p>
         <div class="headsets-loja">
+            <div class="container-loja">
             <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-            <p> (Especificações do produto) </p>
+            <p class="text-especificações"> (Especificações do produto) </p>
+            <strong class="price">R$XX,XX</strong>
+            <button class="add-carrinho">Adicionar ao carrinho</button>
         </div>
-            <div class="produto-vert">
-            <a href="" target="_blank">
-                <img src="img/empty.jpg" class="empty-img">
-            </a>
-        <p>(Especificações do produto)</p>
     </div>
+    <div class="container-loja">
         <div class="produto-vert">
         <a href="" target="_blank">
             <img src="img/empty.jpg" class="empty-img">
         </a>
-    <p>(Especificações do produto)</p>
+    <p class="text-especificações">(Especificações do produto)</p>
+    <strong class="price">R$XX,XX</strong>
+    <button class="add-carrinho">Adicionar ao carrinho</button>
+</div>
+</div>
+        <div class="container-loja">
+            <div class="produto-vert">
+            <a href="" target="_blank">
+                <img src="img/empty.jpg" class="empty-img">
+            </a>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
+    </div>
+</div>
+    <div class="container-loja">
+        <div class="produto-vert">
+        <a href="" target="_blank">
+            <img src="img/empty.jpg" class="empty-img">
+        </a>
+    <p class="text-especificações">(Especificações do produto)</p>
+    <strong class="price">R$XX,XX</strong>
+    <button class="add-carrinho">Adicionar ao carrinho</button>
    </div>
+</div>
 </div>
             <p class="text-produtos-sub"> Mousepads </p>
             <div class="mousepads-loja">
+                <div class="container-loja">
             <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-            <p> (Especificações do produto) </p>
+            <p class="text-especificações"> (Especificações do produto) </p>
+            <strong class="price">R$XX,XX</strong>
+            <button class="add-carrinho">Adicionar ao carrinho</button>
         </div>
+    </div>
+        <div class="container-loja">
             <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-        <p>(Especificações do produto)</p>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
     </div>
+</div>
+    <div class="container-loja">
         <div class="produto-vert">
         <a href="" target="_blank">
             <img src="img/empty.jpg" class="empty-img">
         </a>
-    <p>(Especificações do produto)</p>
+    <p class="text-especificações">(Especificações do produto)</p>
+    <strong class="price">R$XX,XX</strong>
+    <button class="add-carrinho">Adicionar ao carrinho</button>
             </div>
         </div>
+        <div class="container-loja">
+            <div class="produto-vert">
+            <a href="" target="_blank">
+                <img src="img/empty.jpg" class="empty-img">
+            </a>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
+    </div>
+</div>
     </div>
             <section id="secao-computadores">
                 <p class="text-produtos"> Computadores </p>
             <div class="computadores-loja">
+                <div class="container-loja">
             <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-            <p> (Especificações do produto) </p>
+            <p class="text-especificações"> (Especificações do produto) </p>
+            <strong class="price">R$XX,XX</strong>
+            <button class="add-carrinho">Adicionar ao carrinho</button>
         </div>
-            <div class="produto-vert">
-            <a href="" target="_blank">
-                <img src="img/empty.jpg" class="empty-img">
-            </a>
-        <p>(Especificações do produto)</p>
     </div>
+    <div class="container-loja">
         <div class="produto-vert">
         <a href="" target="_blank">
             <img src="img/empty.jpg" class="empty-img">
         </a>
-    <p>(Especificações do produto)</p>
+    <p class="text-especificações">(Especificações do produto)</p>
+    <strong class="price">R$XX,XX</strong>
+    <button class="add-carrinho">Adicionar ao carrinho</button>
+</div>
+</div>
+        <div class="container-loja">
+            <div class="produto-vert">
+            <a href="" target="_blank">
+                <img src="img/empty.jpg" class="empty-img">
+            </a>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
+    </div>
+</div>
+    <div class="container-loja">
+        <div class="produto-vert">
+        <a href="" target="_blank">
+            <img src="img/empty.jpg" class="empty-img">
+        </a>
+    <p class="text-especificações">(Especificações do produto)</p>
+    <strong class="price">R$XX,XX</strong>
+    <button class="add-carrinho">Adicionar ao carrinho</button>
         </div>
+    </div>
     </div>
         </section>
         <section id="secao-processadores">
             <p class="text-produtos"> Processadores </p>
             <div class="processadores-loja">
+                <div class="container-loja">
                 <div class="produto-vert">
                 <a href="" target="_blank">
                     <img src="img/empty.jpg" class="empty-img">
                 </a>
-                <p> (Especificações do produto) </p>
+                <p class="text-especificações"> (Especificações do produto) </p>
+                <strong class="price">R$XX,XX</strong>
+                <button class="add-carrinho">Adicionar ao carrinho</button>
             </div>
-                <div class="produto-vert">
-                <a href="" target="_blank">
-                    <img src="img/empty.jpg" class="empty-img">
-                </a>
-            <p>(Especificações do produto)</p>
         </div>
+        <div class="container-loja">
             <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-        <p>(Especificações do produto)</p>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
+    </div>
+</div>
+            <div class="container-loja">
+                <div class="produto-vert">
+                <a href="" target="_blank">
+                    <img src="img/empty.jpg" class="empty-img">
+                </a>
+            <p class="text-especificações">(Especificações do produto)</p>
+            <strong class="price">R$XX,XX</strong>
+            <button class="add-carrinho">Adicionar ao carrinho</button>
         </div>
+    </div>
+        <div class="container-loja">
+            <div class="produto-vert">
+            <a href="" target="_blank">
+                <img src="img/empty.jpg" class="empty-img">
+            </a>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
+        </div>
+    </div>
     </div>
     </section>
     <section id="secao-placas">
             <p class="text-produtos"> Placas de vídeo </p>
             <div class="placas-loja">
+                <div class="container-loja">
             <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-        <p>(Especificações do produto)</p>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
     </div>
+</div>
+<div class="container-loja">
+    <div class="produto-vert">
+    <a href="" target="_blank">
+        <img src="img/empty.jpg" class="empty-img">
+    </a>
+<p class="text-especificações">(Especificações do produto)</p>
+<strong class="price">R$XX,XX</strong>
+<button class="add-carrinho">Adicionar ao carrinho</button>
+</div>
+</div>
+    <div class="container-loja">
         <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-        <p>(Especificações do produto)</p>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
     </div>
+</div>
+    <div class="container-loja">
         <div class="produto-vert">
                 <a href="" target="_blank">
                     <img src="img/empty.jpg" class="empty-img">
                 </a>
-            <p>(Especificações do produto)</p>
+            <p class="text-especificações">(Especificações do produto)</p>
+            <strong class="price">R$XX,XX</strong>
+            <button class="add-carrinho">Adicionar ao carrinho</button>
         </div>
+    </div>
     </div>
             <section id="secao-games">
             <p class="text-produtos"> Games </p>
             <div class="games-loja">
+                <div class="container-loja">
             <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-        <p>(Especificações do produto)</p>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
     </div>
+</div>
+<div class="container-loja">
+    <div class="produto-vert">
+    <a href="" target="_blank">
+        <img src="img/empty.jpg" class="empty-img">
+    </a>
+<p class="text-especificações">(Especificações do produto)</p>
+<strong class="price">R$XX,XX</strong>
+<button class="add-carrinho">Adicionar ao carrinho</button>
+</div>
+</div>
+    <div class="container-loja">
         <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-        <p>(Especificações do produto)</p>
+        <p class="text-especificações">(Especificações do produto)</p>
+        <strong class="price">R$XX,XX</strong>
+        <button class="add-carrinho">Adicionar ao carrinho</button>
     </div>
+</div>
+    <div class="container-loja">
         <div class="produto-vert">
             <a href="" target="_blank">
                 <img src="img/empty.jpg" class="empty-img">
             </a>
-            <p>(Especificações do produto)</p>
+            <p class="text-especificações">(Especificações do produto)</p>
+            <strong class="price">R$XX,XX</strong>
+            <button class="add-carrinho">Adicionar ao carrinho</button>
         </div>
+    </div>
     </div>
     </section>
     </div>
     </div>
-    <div class="info-add">
-        <div class="sociais">
-        <h1> Redes sociais </h1>
-        <h2 class="facebook-info"> Gamemania </h2>
-        <h2 class="instagram-info"> @gamemania </h2>
-    </div>
-        <div class="contato">
-        <h1> Entre em contato </h1>
-        <h2 class="telefone-info"> (XX)XXXXX-XXXX </h2>
-        <h2 class="email-info"> loreimpsumdolor@mail.com </h2>
-    </div>
-</div>
-
     <div class="footer">
     <footer>
         <p>&copy; 2024 Gamemania. Todos os direitos reservados.</p>

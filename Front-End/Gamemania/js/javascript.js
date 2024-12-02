@@ -28,3 +28,4 @@ function centralizarSeção(event, id) {
       behavior: 'smooth'
     });
   }
+  
