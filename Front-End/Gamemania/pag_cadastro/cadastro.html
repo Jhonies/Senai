@@ -12,12 +12,14 @@
         <div class="container">
             <div class="entry">
                 <h1 class="cadastro">Cadastre-se</h1>
-                <p class="email-text">E-mail</p>
                 <div class="caixa-de-texto">
-                <input type="text" id="username" placeholder="Crie um e-mail..." class="email form-control mb-3">
+                <p class="username-text">Usuário</p>
+                <input type="text" class="user form-control" id="user" placeholder="Crie seu nome de usuário" required>
+                <p class="email-text">E-mail</p>
+                <input type="text" id="username" placeholder="Insira seu e-mail..." class="email form-control mb-3" required>
                 <p class="senha-text">Criar senha</p>
-                <input type="password" id="password" class="senha form-control mb-3" placeholder="Crie uma senha...">
-                <input type="password" id="password-confirm" class="senha form-control mb-3" placeholder="Confirmar senha...">
+                <input type="password" id="password" class="senha form-control mb-3" placeholder="Crie uma senha..." required>
+                <input type="password" id="password-confirm" class="senha form-control mb-3" placeholder="Confirmar senha..." required>
                 <button onclick="validateLogin()" class="button-confirm btn btn-dark">Confirmar</button>
                 <p id="result" class="mt-3"></p>
             </div>

@@ -293,10 +293,21 @@ margin: 30px;
 }
 
 .price {
+   display: block;
    font-size: large;
    color: #4CAF50;
    align-self: flex-start;
+   margin-bottom: 5px;
 }
+
+.add-carrinho {
+   margin-top: 20px;
+   
+}
+
+.add-carrinho:hover {
+}
+
 
 .container-loja {
    height: 600px;
