@@ -1,0 +1,104 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #123b46;
+  }
+  
+  .logo {
+
+  }
+  
+  .search-bar {
+    flex: 1;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+  }
+
+  .search-bar:focus {
+    outline: none;
+  }
+  
+  .gamemania {
+    font-size: 30px;
+    color: #ffffff;
+  }
+
+  .menu-icons i {
+    margin: 0 10px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+
+.tooltip {
+  position: absolute;
+  top: 100%; /* Aparece abaixo do ícone */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 12px;
+  z-index: 1000;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+  
+  /* Navigation Menu */
+  .nav-menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2d4c57;
+    padding: 10px 0;
+  }
+  
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: bold;
+  }
+  
+  .nav-menu a:hover {
+    background-color: #1a373f;
+    border-radius: 10px;
+  }
+  
+  /* Cards Container */
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #123b46;
+  }
+  
+  .card {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    background-color: #2d4c57;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card p {
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .card.highlight {
+    background-color: #4caf50;
+  }
