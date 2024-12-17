@@ -1,0 +1,67 @@
+<div class="container">
+    <h2>Cadastro</h2>
+    <form (ngSubmit)="onSubmit()" #registerForm="ngForm">
+      <!-- Nome -->
+      <div class="form-group">
+        <label for="name">Nome</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          class="form-control"
+          required
+          [(ngModel)]="user.name"
+        />
+      </div>
+  
+      <!-- E-mail -->
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="form-control"
+          required
+          [(ngModel)]="user.email"
+        />
+      </div>
+  
+      <!-- Telefone -->
+      <div class="form-group">
+        <label for="phone">Telefone</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          class="form-control"
+          required
+          [(ngModel)]="user.phone"
+        />
+      </div>
+  
+      <!-- Senha -->
+      <div class="form-group">
+        <label for="password">Senha</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          class="form-control"
+          required
+          [(ngModel)]="user.password"
+        />
+      </div>
+  
+      <!-- Botão de Cadastro -->
+      <button type="submit" class="btn btn-primary" [disabled]="!registerForm.form.valid">
+        Cadastrar
+      </button>
+    </form>
+  
+    <!-- Redirecionamento para Login -->
+    <p class="redirect-login">
+      Já possui cadastro?
+      <a routerLink="/login">Clique aqui para fazer login</a>
+    </p>
+  </div>

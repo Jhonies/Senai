@@ -63,7 +63,7 @@
     color: white;
     text-decoration: none;
     padding: 5px 15px;
-    font-weight: bold;
+    font-weight: 500;
   }
   
   .nav-menu a:hover {
@@ -95,7 +95,7 @@
   
   .card p {
     color: white;
-    font-weight: bold;
+    font-weight: ;
     margin-top: 10px;
   }
   

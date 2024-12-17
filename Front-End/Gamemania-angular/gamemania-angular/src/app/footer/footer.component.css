@@ -1,0 +1,22 @@
+.footer {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento vertical */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .footer-content {
+    display: inline-block;
+  }
+  
+  .footer-link {
+    color: #3ea5db; /* Cor azul (tema Azure Blue) */
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline; /* Efeito hover */
+  }
