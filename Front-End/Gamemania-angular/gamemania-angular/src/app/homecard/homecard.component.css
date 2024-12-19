@@ -1,0 +1,8 @@
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 16px;
+    background-color: #25474e; /* Cor de fundo */
+    padding: 20px;
+  }

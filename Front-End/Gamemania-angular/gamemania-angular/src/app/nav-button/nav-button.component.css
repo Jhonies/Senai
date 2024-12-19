@@ -1,0 +1,25 @@
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #25474e; /* Cor de fundo */
+    padding: 20px;
+  }
+  
+  .button {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .button img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ccc;
+  }
+  
+  .button span {
+    display: block;
+    color: #fff;
+    margin-top: 10px;
+  }
