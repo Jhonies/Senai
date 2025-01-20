@@ -41,7 +41,7 @@ button {
   padding: 8px 15px;
   border: none;
   color: white; /* Garante que a cor do texto seja branca */
-  background-color: #3a3a4d; /* Cor de fundo futurista para os botões */
+  background-color: #204245; /* Cor de fundo futurista para os botões */
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
@@ -49,7 +49,7 @@ button {
 }
 
 button:hover {
-  background-color: #5757f7; /* Cor ao passar o mouse para os botões */
+  background-color: #2042457b; /* Cor ao passar o mouse para os botões */
   color: white; /* Garante que o texto continue branco no hover */
 }
 
@@ -63,19 +63,19 @@ button:hover {
 
 /* Estilo adicional para os botões de ação */
 .action-button {
-  background-color: #3a3a4d; /* Cor de fundo para os botões de ação */
+  background-color: #2042457b; /* Cor de fundo para os botões de ação */
   margin-left: 10px;
   color: white; /* Garante que o texto seja branco */
   text-decoration: none; /* Remove o sublinhado */
 }
 
 .action-button:hover {
-  background-color: #5757f7; /* Cor de hover mais forte para os botões de ação */
+  background-color: #2042457b; /* Cor de hover mais forte para os botões de ação */
   color: white; /* Garante que o texto continue branco no hover */
 }
 
 /* Adiciona uma cor de fundo quando o botão é clicado para manter o estilo consistente */
 button:active {
-  background-color: #5757f7; /* Cor ao clicar no botão */
+  background-color: #2042457b; /* Cor ao clicar no botão */
   color: white; /* Garante que o texto permaneça branco */
 }
