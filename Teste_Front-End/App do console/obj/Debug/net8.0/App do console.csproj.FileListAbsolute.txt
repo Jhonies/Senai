@@ -1,0 +1,22 @@
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\bin\Debug\net8.0\selenium-manager\macos\selenium-manager
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\bin\Debug\net8.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\bin\Debug\net8.0\App do console.exe
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\bin\Debug\net8.0\App do console.deps.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\bin\Debug\net8.0\App do console.runtimeconfig.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\bin\Debug\net8.0\App do console.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\bin\Debug\net8.0\App do console.pdb
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\bin\Debug\net8.0\WebDriver.Support.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\bin\Debug\net8.0\WebDriver.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\obj\Debug\net8.0\App do console.csproj.AssemblyReference.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\obj\Debug\net8.0\App do console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\obj\Debug\net8.0\App do console.AssemblyInfoInputs.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\obj\Debug\net8.0\App do console.AssemblyInfo.cs
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\obj\Debug\net8.0\App do console.csproj.CoreCompileInputs.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\obj\Debug\net8.0\App do console.sourcelink.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\obj\Debug\net8.0\App do c.26C88B50.Up2Date
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\obj\Debug\net8.0\App do console.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\obj\Debug\net8.0\refint\App do console.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\obj\Debug\net8.0\App do console.pdb
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\obj\Debug\net8.0\App do console.genruntimeconfig.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Teste_Front-End\App do console\obj\Debug\net8.0\ref\App do console.dll
