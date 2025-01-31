@@ -22,11 +22,11 @@ server.use((req, res, next) => {
   next();
 });
 
-// Rota de login
+// Rota de login POST
 server.post('/login', (req, res) => {
   const { email, password } = req.body;
 
-  // Busca o usuário pelo email no arquivo db.json
+  // Busca o usuário pelo email no arquivo db.json GET
   const users = router.db.get('users').value();
   const user = users.find((u) => u.email === email);
 
