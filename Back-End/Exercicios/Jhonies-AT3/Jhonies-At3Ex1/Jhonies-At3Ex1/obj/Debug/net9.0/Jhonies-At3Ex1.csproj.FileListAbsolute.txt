@@ -1,0 +1,14 @@
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\bin\Debug\net9.0\Jhonies-At3Ex1.exe
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\bin\Debug\net9.0\Jhonies-At3Ex1.deps.json
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\bin\Debug\net9.0\Jhonies-At3Ex1.runtimeconfig.json
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\bin\Debug\net9.0\Jhonies-At3Ex1.dll
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\bin\Debug\net9.0\Jhonies-At3Ex1.pdb
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\obj\Debug\net9.0\Jhonies-At3Ex1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\obj\Debug\net9.0\Jhonies-At3Ex1.AssemblyInfoInputs.cache
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\obj\Debug\net9.0\Jhonies-At3Ex1.AssemblyInfo.cs
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\obj\Debug\net9.0\Jhonies-At3Ex1.csproj.CoreCompileInputs.cache
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\obj\Debug\net9.0\Jhonies-At3Ex1.dll
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\obj\Debug\net9.0\refint\Jhonies-At3Ex1.dll
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\obj\Debug\net9.0\Jhonies-At3Ex1.pdb
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\obj\Debug\net9.0\Jhonies-At3Ex1.genruntimeconfig.cache
+C:\Users\vlope\OneDrive\Jhonies3\Jhonies-At3Ex1\Jhonies-At3Ex1\obj\Debug\net9.0\ref\Jhonies-At3Ex1.dll

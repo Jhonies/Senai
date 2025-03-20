@@ -1,0 +1,15 @@
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\obj\Debug\net9.0\Jhonies-At2Ex5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\obj\Debug\net9.0\Jhonies-At2Ex5.AssemblyInfoInputs.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\obj\Debug\net9.0\Jhonies-At2Ex5.AssemblyInfo.cs
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\obj\Debug\net9.0\Jhonies-At2Ex5.csproj.CoreCompileInputs.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\obj\Debug\net9.0\Jhonies-At2Ex5.sourcelink.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\bin\Debug\net9.0\Jhonies-At2Ex5.exe
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\bin\Debug\net9.0\Jhonies-At2Ex5.deps.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\bin\Debug\net9.0\Jhonies-At2Ex5.runtimeconfig.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\bin\Debug\net9.0\Jhonies-At2Ex5.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\bin\Debug\net9.0\Jhonies-At2Ex5.pdb
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\obj\Debug\net9.0\Jhonies-At2Ex5.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\obj\Debug\net9.0\refint\Jhonies-At2Ex5.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\obj\Debug\net9.0\Jhonies-At2Ex5.pdb
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\obj\Debug\net9.0\Jhonies-At2Ex5.genruntimeconfig.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2Ex5\Jhonies-At2Ex5\obj\Debug\net9.0\ref\Jhonies-At2Ex5.dll

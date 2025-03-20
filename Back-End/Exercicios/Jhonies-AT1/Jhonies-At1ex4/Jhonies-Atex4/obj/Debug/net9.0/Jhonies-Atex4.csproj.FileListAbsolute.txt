@@ -1,0 +1,14 @@
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\bin\Debug\net9.0\Jhonies-Atex4.exe
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\bin\Debug\net9.0\Jhonies-Atex4.deps.json
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\bin\Debug\net9.0\Jhonies-Atex4.runtimeconfig.json
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\bin\Debug\net9.0\Jhonies-Atex4.dll
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\bin\Debug\net9.0\Jhonies-Atex4.pdb
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\obj\Debug\net9.0\Jhonies-Atex4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\obj\Debug\net9.0\Jhonies-Atex4.AssemblyInfoInputs.cache
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\obj\Debug\net9.0\Jhonies-Atex4.AssemblyInfo.cs
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\obj\Debug\net9.0\Jhonies-Atex4.csproj.CoreCompileInputs.cache
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\obj\Debug\net9.0\Jhonies-Atex4.dll
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\obj\Debug\net9.0\refint\Jhonies-Atex4.dll
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\obj\Debug\net9.0\Jhonies-Atex4.pdb
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\obj\Debug\net9.0\Jhonies-Atex4.genruntimeconfig.cache
+C:\Users\WebFullStack\Downloads\Jhonies-Atex4\Jhonies-Atex4\obj\Debug\net9.0\ref\Jhonies-Atex4.dll

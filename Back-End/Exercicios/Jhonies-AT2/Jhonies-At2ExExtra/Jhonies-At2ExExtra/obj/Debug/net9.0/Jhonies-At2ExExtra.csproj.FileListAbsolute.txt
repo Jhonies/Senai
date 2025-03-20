@@ -1,0 +1,15 @@
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\bin\Debug\net9.0\Jhonies-At2ExExtra.exe
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\bin\Debug\net9.0\Jhonies-At2ExExtra.deps.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\bin\Debug\net9.0\Jhonies-At2ExExtra.runtimeconfig.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\bin\Debug\net9.0\Jhonies-At2ExExtra.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\bin\Debug\net9.0\Jhonies-At2ExExtra.pdb
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\obj\Debug\net9.0\Jhonies-At2ExExtra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\obj\Debug\net9.0\Jhonies-At2ExExtra.AssemblyInfoInputs.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\obj\Debug\net9.0\Jhonies-At2ExExtra.AssemblyInfo.cs
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\obj\Debug\net9.0\Jhonies-At2ExExtra.csproj.CoreCompileInputs.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\obj\Debug\net9.0\Jhonies-At2ExExtra.sourcelink.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\obj\Debug\net9.0\Jhonies-At2ExExtra.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\obj\Debug\net9.0\refint\Jhonies-At2ExExtra.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\obj\Debug\net9.0\Jhonies-At2ExExtra.pdb
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\obj\Debug\net9.0\Jhonies-At2ExExtra.genruntimeconfig.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-At2ExExtra\Jhonies-At2ExExtra\obj\Debug\net9.0\ref\Jhonies-At2ExExtra.dll

@@ -1,0 +1,101 @@
+using System;
+
+// Interface Animal
+interface IAnimal {
+    void Falar();
+    void Mover();
+}
+
+// Classe Cachorro
+class Cachorro : IAnimal {
+    public void Falar() {
+        Console.WriteLine("O cachorro late: Au Au!");
+    }
+    public void Mover() {
+        Console.WriteLine("O cachorro corre pelo quintal.");
+    }
+}
+
+// Classe Gato
+class Gato : IAnimal {
+    public void Falar() {
+        Console.WriteLine("O gato mia: Miau!");
+    }
+    public void Mover() {
+        Console.WriteLine("O gato pula no sofá.");
+    }
+}
+
+// Classe Cavalo
+class Cavalo : IAnimal {
+    public void Falar() {
+        Console.WriteLine("O cavalo relincha: Ihihih!");
+    }
+    public void Mover() {
+        Console.WriteLine("O cavalo galopa rapidamente.");
+    }
+}
+
+// Classe Papagaio
+class Papagaio : IAnimal {
+    public void Falar() {
+        Console.WriteLine("O papagaio repete palavras humanas!");
+    }
+    public void Mover() {
+        Console.WriteLine("O papagaio voa pelo céu.");
+    }
+}
+
+// Classe Leão
+class Leao : IAnimal {
+    public void Falar() {
+        Console.WriteLine("O leão ruge: ROARRR!");
+    }
+    public void Mover() {
+        Console.WriteLine("O leão anda majestosamente na savana.");
+    }
+}
+
+// Classe Principal para testar os animais
+using System;
+
+namespace Jhonies_At4Ex1;
+
+
+class Program {
+    static void Main() {
+        Console.WriteLine("Escolha um animal: 1: Cachorro, 2: Gato, 3: Cavalo, 4: Papagaio ou 5: Leao");
+        char escolha = char.ToLower(Console.ReadKey().KeyChar);
+        Console.WriteLine();
+        
+        IAnimais animal = escolha switch
+        {
+            '1' => new Cachorro(),
+            '2' => new Gato(),
+            '3' => new Cavalo(),
+            '4' => new Papagaio(),
+            '5' => new Leao(),
+            _ => null
+        };
+        
+        if (animal != null) {
+             Console.WriteLine("Escolha uma ação: 1: Falar, 2: Mover");
+             char acao = char.ToLower(Console.ReadKey().KeyChar);
+             Console.WriteLine();
+         
+             switch (acao) {
+                 case '1':
+                     animal.Falar();
+                     break;
+                 case '2':
+                     animal.Mover();
+                     break;
+                 default:
+                     Console.WriteLine("Ação não reconhecida.");
+                     break;
+             }
+         } else {
+             Console.WriteLine("Animal não reconhecido.");
+         }
+     }
+ }

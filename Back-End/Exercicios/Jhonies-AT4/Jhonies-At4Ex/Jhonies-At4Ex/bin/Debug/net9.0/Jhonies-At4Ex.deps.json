@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Jhonies-At4Ex/1.0.0": {
+        "runtime": {
+          "Jhonies-At4Ex.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Jhonies-At4Ex/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

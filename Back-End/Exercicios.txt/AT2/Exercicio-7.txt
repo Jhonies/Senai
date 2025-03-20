@@ -1,0 +1,32 @@
+using System;
+using System.Runtime.InteropServices.JavaScript;
+
+class Program
+{
+    static void Main()
+    {
+        int numero, pares = 0, impares = 0;
+        
+        Console.WriteLine("Digite a seguir os números desejados: ");
+        
+        while (true)
+        {
+            numero = int.Parse(Console.ReadLine());
+        if (numero ==0)
+        {
+            break;
+        }
+
+        if (numero % 2 == 0)
+        {
+            pares++;
+        }
+        else
+        {
+            impares++;
+        }
+    }
+    Console.WriteLine($"Total de números pares: {pares}");
+    Console.WriteLine($"Total de números impares: {impares}");
+    }
+}

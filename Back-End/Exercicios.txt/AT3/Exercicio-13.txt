@@ -1,0 +1,191 @@
+// Veiculo.cs
+using System;
+
+abstract class Veiculo
+{
+    public string Nome { get; protected set; }
+    public bool Ligado { get; protected set; }
+
+    public Veiculo(string nome)
+    {
+        Nome = nome;
+        Ligado = false;
+    }
+
+    public virtual void Ligar()
+    {
+        if (!Ligado)
+        {
+            Ligado = true;
+            Console.WriteLine($"{Nome} ligado.");
+        }
+        else
+        {
+            Console.WriteLine($"{Nome} já está ligado.");
+        }
+    }
+
+    public virtual void Desligar()
+    {
+        if (Ligado)
+        {
+            Ligado = false;
+            Console.WriteLine($"{Nome} desligado.");
+        }
+        else
+        {
+            Console.WriteLine($"{Nome} já está desligado.");
+        }
+    }
+
+    public void Acelerar()
+    {
+        if (Ligado)
+            Console.WriteLine($"{Nome} acelerando!");
+        else
+            Console.WriteLine($"Ligue o {Nome} antes de acelerar.");
+    }
+
+    public void Frear()
+    {
+        Console.WriteLine($"{Nome} freando!");
+    }
+
+    public void Virar(string direcao)
+    {
+        Console.WriteLine($"{Nome} virando para a {direcao}.");
+    }
+}
+
+// Carro.cs
+class Carro : Veiculo
+{
+    public Carro() : base("Carro") { }
+}
+
+// Moto.cs
+class Moto : Veiculo
+{
+    public Moto() : base("Moto") { }
+}
+
+// Bicicleta.cs
+class Bicicleta : Veiculo
+{
+    public Bicicleta() : base("Bicicleta") { }
+
+    public override void Ligar()
+    {
+        Console.WriteLine("Bicicletas não precisam ser ligadas!");
+    }
+
+    public override void Desligar()
+    {
+        Console.WriteLine("Bicicletas não precisam ser desligadas!");
+    }
+}
+
+// BicicletaEletrica.cs
+class BicicletaEletrica : Bicicleta
+{
+    public BicicletaEletrica() : base()
+    {
+        Nome = "Bicicleta Elétrica";
+    }
+
+    public override void Ligar()
+    {
+        if (!Ligado)
+        {
+            Ligado = true;
+            Console.WriteLine("Bicicleta elétrica ligada.");
+        }
+        else
+        {
+            Console.WriteLine("Bicicleta elétrica já está ligada.");
+        }
+    }
+
+    public override void Desligar()
+    {
+        if (Ligado)
+        {
+            Ligado = false;
+            Console.WriteLine("Bicicleta elétrica desligada.");
+        }
+        else
+        {
+            Console.WriteLine("Bicicleta elétrica já está desligada.");
+        }
+    }
+}
+
+// Program.cs
+class Program
+{
+    static Veiculo EscolherVeiculo()
+    {
+        Console.WriteLine("Escolha um veículo:");
+        Console.WriteLine("1 - Carro");
+        Console.WriteLine("2 - Moto");
+        Console.WriteLine("3 - Bicicleta");
+        Console.WriteLine("4 - Bicicleta Elétrica");
+        string escolha = Console.ReadLine();
+
+        return escolha switch
+        {
+            "1" => new Carro(),
+            "2" => new Moto(),
+            "3" => new Bicicleta(),
+            "4" => new BicicletaEletrica(),
+            _ => throw new ArgumentException("Opção inválida!")
+        };
+    }
+
+    static void Menu(Veiculo veiculo)
+    {
+        while (true)
+        {
+            Console.WriteLine("\nEscolha uma ação:");
+            Console.WriteLine("1 - Ligar");
+            Console.WriteLine("2 - Acelerar");
+            Console.WriteLine("3 - Frear");
+            Console.WriteLine("4 - Virar");
+            Console.WriteLine("5 - Desligar");
+            Console.WriteLine("6 - Sair");
+            string opcao = Console.ReadLine();
+
+            switch (opcao)
+            {
+                case "1": veiculo.Ligar(); break;
+                case "2": veiculo.Acelerar(); break;
+                case "3": veiculo.Frear(); break;
+                case "4":
+                    Console.Write("Para que lado deseja virar? (Esquerda/Direita): ");
+                    string direcao = Console.ReadLine();
+                    veiculo.Virar(direcao);
+                    break;
+                case "5": veiculo.Desligar(); break;
+                case "6":
+                    Console.WriteLine("Saindo...");
+                    return;
+                default:
+                    Console.WriteLine("Opção inválida!");
+                    break;
+            }
+        }
+    }
+
+    static void Main()
+    {
+        try
+        {
+            Veiculo veiculo = EscolherVeiculo();
+            Menu(veiculo);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+}

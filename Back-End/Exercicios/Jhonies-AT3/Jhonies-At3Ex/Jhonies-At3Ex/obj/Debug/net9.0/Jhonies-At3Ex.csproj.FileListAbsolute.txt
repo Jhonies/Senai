@@ -1,0 +1,14 @@
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\bin\Debug\net9.0\Jhonies-At3Ex.exe
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\bin\Debug\net9.0\Jhonies-At3Ex.deps.json
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\bin\Debug\net9.0\Jhonies-At3Ex.runtimeconfig.json
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\bin\Debug\net9.0\Jhonies-At3Ex.dll
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\bin\Debug\net9.0\Jhonies-At3Ex.pdb
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\obj\Debug\net9.0\Jhonies-At3Ex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\obj\Debug\net9.0\Jhonies-At3Ex.AssemblyInfoInputs.cache
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\obj\Debug\net9.0\Jhonies-At3Ex.AssemblyInfo.cs
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\obj\Debug\net9.0\Jhonies-At3Ex.csproj.CoreCompileInputs.cache
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\obj\Debug\net9.0\Jhonies-At3Ex.dll
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\obj\Debug\net9.0\refint\Jhonies-At3Ex.dll
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\obj\Debug\net9.0\Jhonies-At3Ex.pdb
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\obj\Debug\net9.0\Jhonies-At3Ex.genruntimeconfig.cache
+C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At3Ex\Jhonies-At3Ex\obj\Debug\net9.0\ref\Jhonies-At3Ex.dll

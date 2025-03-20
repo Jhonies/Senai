@@ -1,0 +1,35 @@
+﻿using System;
+
+class Program
+{
+
+    static void Main()
+    {
+        Random random = new Random();
+        int numeroSecreto = random.Next(1, 101);
+        int numeroTentativa = 0;
+
+        Console.WriteLine("Acerte o número secreto entre 1 e 100");
+
+        while (true)
+        {
+            numeroTentativa = int.Parse(Console.ReadLine());
+
+            if (numeroTentativa == numeroSecreto)
+            {
+                Console.WriteLine($"Parabéns, o número era {numeroSecreto}!");
+                break;
+            }
+
+            if (numeroTentativa > numeroSecreto)
+            {
+                Console.WriteLine("O número secreto é menor");
+            }
+            else
+            {
+                Console.WriteLine("O número secreto é maior");
+            }
+        }
+    }
+}
+    

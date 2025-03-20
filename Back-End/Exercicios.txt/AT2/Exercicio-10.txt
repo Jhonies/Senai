@@ -1,0 +1,39 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        
+        
+        Console.WriteLine("Digite um número inteiro positivo para verificar se ele é primo: ");
+        
+        if (!int.TryParse(Console.ReadLine(), out int numero) || numero <= 0)
+        {
+            Console.WriteLine("Entrada inválida. Digite um número inteiro positivo.");
+            return;
+        }
+        
+        int contadorDivisores = 0;
+
+        for (int i = 1; i <= numero; i++)
+        {
+
+            if (numero % i == 0)
+            {
+                contadorDivisores++;
+            }
+            
+        }
+            if (contadorDivisores == 2)
+            {
+                Console.WriteLine($"{numero} é primo");
+            }
+            else
+            {
+                Console.WriteLine($"{numero} não é primo");
+            }
+
+        
+    }
+}
