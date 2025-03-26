@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Jhonies-At5Ex1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6db629f65aaf78bfef8ae66520a204ceaf72bb98")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff8b9ca8acd336dd2320fa5e70f653ebd5f06603")]
 [assembly: System.Reflection.AssemblyProductAttribute("Jhonies-At5Ex1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Jhonies-At5Ex1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,3 +12,18 @@ C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Deb
 C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Debug\net9.0\Jhonies-At5Ex1.pdb
 C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Debug\net9.0\Jhonies-At5Ex1.genruntimeconfig.cache
 C:\Users\WebFullStack\Downloads\JhoniesEX2\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Debug\net9.0\ref\Jhonies-At5Ex1.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\bin\Debug\net9.0\Jhonies-At5Ex1.exe
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\bin\Debug\net9.0\Jhonies-At5Ex1.deps.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\bin\Debug\net9.0\Jhonies-At5Ex1.runtimeconfig.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\bin\Debug\net9.0\Jhonies-At5Ex1.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\bin\Debug\net9.0\Jhonies-At5Ex1.pdb
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Debug\net9.0\Jhonies-At5Ex1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Debug\net9.0\Jhonies-At5Ex1.AssemblyInfoInputs.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Debug\net9.0\Jhonies-At5Ex1.AssemblyInfo.cs
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Debug\net9.0\Jhonies-At5Ex1.csproj.CoreCompileInputs.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Debug\net9.0\Jhonies-At5Ex1.sourcelink.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Debug\net9.0\Jhonies-At5Ex1.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Debug\net9.0\refint\Jhonies-At5Ex1.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Debug\net9.0\Jhonies-At5Ex1.pdb
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Debug\net9.0\Jhonies-At5Ex1.genruntimeconfig.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Senai\Back-End\Exercicios\Jhonies-AT5\Jhonies-At5Ex1\Jhonies-At5Ex1\obj\Debug\net9.0\ref\Jhonies-At5Ex1.dll
