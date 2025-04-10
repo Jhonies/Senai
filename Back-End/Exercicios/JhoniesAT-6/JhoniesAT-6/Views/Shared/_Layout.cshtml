@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define o conjunto de caracteres da página -->
+    <meta charset="utf-8" />
+
+    <!-- Define a responsividade da página em diferentes tamanhos de tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Define o título da aba do navegador. A variável ViewData["Title"] pode ser definida em cada View -->
+    <title>@ViewData["Title"] - LH_PET</title>
+
+    <!-- Importa o CSS do Bootstrap (biblioteca de estilos visuais prontos) -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Importa o CSS próprio do projeto -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <!-- asp-append-version adiciona automaticamente um "hash" no final do link do CSS para forçar o navegador a atualizar caso o arquivo mude -->
+    <!-- Importa CSS gerado automaticamente pelo Visual Studio para estilos adicionais do Razor -->
+    <link rel="stylesheet" href="~/JhoniesAT-6.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- Início do cabeçalho com barra de navegação -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+
+                <!-- Link clicável com o nome/logo do sistema -->
+                <!-- asp-area: indica a área (subdivisão do projeto). Vazio significa que está na área principal -->
+                <!-- asp-controller: nome do controller que será chamado (sem o sufixo "Controller") -->
+                <!-- asp-action: nome do método/action dentro do controller -->
+                <!-- Este link levará para: HomeController -> método Index -->
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">LH_PET</a>
+
+                <!-- Botão visível apenas em telas pequenas (responsivo), que abre o menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Início do menu de navegação -->
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+
+                        <!-- Item de menu: link para a Home -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+
+                        <!-- Menu suspenso para "Clientes" -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="clientesDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                Clientes
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="clientesDropdown">
+                                <!-- Link para a tela de cadastro de clientes -->
+                                <li><a class="dropdown-item" asp-controller="dados_clientes" asp-action="Create">Cadastrar Cliente</a></li>
+
+                                <!-- Link para a tela de listagem de clientes -->
+                                <li><a class="dropdown-item" asp-controller="dados_clientes" asp-action="Index">Consultar Clientes</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Menu suspenso para "Fornecedores" -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="fornecedoresDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                Fornecedores
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="fornecedoresDropdown">
+                                <!-- Link para a tela de cadastro de fornecedores -->
+                                <li><a class="dropdown-item" asp-controller="dados_fornecedores" asp-action="Create">Cadastrar Fornecedor</a></li>
+
+                                <!-- Link para a tela de listagem de fornecedores -->
+                                <li><a class="dropdown-item" asp-controller="dados_fornecedores" asp-action="Index">Consultar Fornecedores</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <div class="container">
+        <main role="main" class="pb-3">
+            <!-- RenderBody é onde o conteúdo específico de cada View será exibido -->
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Rodapé da página -->
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - LH_PET -
+            <!-- Link para a página de política de privacidade -->
+            <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <!-- Scripts JavaScript necessários para o funcionamento do Bootstrap -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script do projeto (JS customizado) -->
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- Se alguma View quiser adicionar scripts específicos, eles serão carregados aqui -->
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

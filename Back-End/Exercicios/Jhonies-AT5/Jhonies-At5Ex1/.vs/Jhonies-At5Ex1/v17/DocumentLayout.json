@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vlope\\OneDrive\\\u00C1rea de Trabalho\\Jhonies\\Senai\\Back-End\\Exercicios\\Jhonies-AT5\\Jhonies-At5Ex1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A03F98E4-F9B7-46FF-BD80-7D1CE8963211}|Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj|c:\\users\\vlope\\onedrive\\\u00E1rea de trabalho\\jhonies\\senai\\back-end\\exercicios\\jhonies-at5\\jhonies-at5ex1\\jhonies-at5ex1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03F98E4-F9B7-46FF-BD80-7D1CE8963211}|Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj|solutionrelative:jhonies-at5ex1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03F98E4-F9B7-46FF-BD80-7D1CE8963211}|Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj|c:\\users\\vlope\\onedrive\\\u00E1rea de trabalho\\jhonies\\senai\\back-end\\exercicios\\jhonies-at5\\jhonies-at5ex1\\jhonies-at5ex1\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03F98E4-F9B7-46FF-BD80-7D1CE8963211}|Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj|solutionrelative:jhonies-at5ex1\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03F98E4-F9B7-46FF-BD80-7D1CE8963211}|Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj|c:\\users\\vlope\\onedrive\\\u00E1rea de trabalho\\jhonies\\senai\\back-end\\exercicios\\jhonies-at5\\jhonies-at5ex1\\jhonies-at5ex1\\clientepf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03F98E4-F9B7-46FF-BD80-7D1CE8963211}|Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj|solutionrelative:jhonies-at5ex1\\clientepf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03F98E4-F9B7-46FF-BD80-7D1CE8963211}|Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj|c:\\users\\vlope\\onedrive\\\u00E1rea de trabalho\\jhonies\\senai\\back-end\\exercicios\\jhonies-at5\\jhonies-at5ex1\\jhonies-at5ex1\\clientepj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03F98E4-F9B7-46FF-BD80-7D1CE8963211}|Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj|solutionrelative:jhonies-at5ex1\\clientepj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03F98E4-F9B7-46FF-BD80-7D1CE8963211}|Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj|c:\\users\\vlope\\onedrive\\\u00E1rea de trabalho\\jhonies\\senai\\back-end\\exercicios\\jhonies-at5\\jhonies-at5ex1\\jhonies-at5ex1\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A03F98E4-F9B7-46FF-BD80-7D1CE8963211}|Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj|solutionrelative:jhonies-at5ex1\\icliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A03F98E4-F9B7-46FF-BD80-7D1CE8963211}|Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj|c:\\users\\vlope\\onedrive\\\u00E1rea de trabalho\\jhonies\\senai\\back-end\\exercicios\\jhonies-at5\\jhonies-at5ex1\\jhonies-at5ex1\\jhonies-at5ex1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A03F98E4-F9B7-46FF-BD80-7D1CE8963211}|Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj|solutionrelative:jhonies-at5ex1\\jhonies-at5ex1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vlope\\OneDrive\\\u00C1rea de Trabalho\\Jhonies\\Senai\\Back-End\\Exercicios\\Jhonies-AT5\\Jhonies-At5Ex1\\Jhonies-At5Ex1\\Program.cs",
+              "RelativeDocumentMoniker": "Jhonies-At5Ex1\\Program.cs",
+              "ToolTip": "C:\\Users\\vlope\\OneDrive\\\u00C1rea de Trabalho\\Jhonies\\Senai\\Back-End\\Exercicios\\Jhonies-AT5\\Jhonies-At5Ex1\\Jhonies-At5Ex1\\Program.cs",
+              "RelativeToolTip": "Jhonies-At5Ex1\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T03:16:09.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Jhonies-At5Ex1.csproj",
+              "DocumentMoniker": "C:\\Users\\vlope\\OneDrive\\\u00C1rea de Trabalho\\Jhonies\\Senai\\Back-End\\Exercicios\\Jhonies-AT5\\Jhonies-At5Ex1\\Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj",
+              "RelativeDocumentMoniker": "Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj",
+              "ToolTip": "C:\\Users\\vlope\\OneDrive\\\u00C1rea de Trabalho\\Jhonies\\Senai\\Back-End\\Exercicios\\Jhonies-AT5\\Jhonies-At5Ex1\\Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj",
+              "RelativeToolTip": "Jhonies-At5Ex1\\Jhonies-At5Ex1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-07T03:16:09.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICliente.cs",
+              "DocumentMoniker": "C:\\Users\\vlope\\OneDrive\\\u00C1rea de Trabalho\\Jhonies\\Senai\\Back-End\\Exercicios\\Jhonies-AT5\\Jhonies-At5Ex1\\Jhonies-At5Ex1\\ICliente.cs",
+              "RelativeDocumentMoniker": "Jhonies-At5Ex1\\ICliente.cs",
+              "ToolTip": "C:\\Users\\vlope\\OneDrive\\\u00C1rea de Trabalho\\Jhonies\\Senai\\Back-End\\Exercicios\\Jhonies-AT5\\Jhonies-At5Ex1\\Jhonies-At5Ex1\\ICliente.cs",
+              "RelativeToolTip": "Jhonies-At5Ex1\\ICliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T03:16:08.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientePJ.cs",
+              "DocumentMoniker": "C:\\Users\\vlope\\OneDrive\\\u00C1rea de Trabalho\\Jhonies\\Senai\\Back-End\\Exercicios\\Jhonies-AT5\\Jhonies-At5Ex1\\Jhonies-At5Ex1\\ClientePJ.cs",
+              "RelativeDocumentMoniker": "Jhonies-At5Ex1\\ClientePJ.cs",
+              "ToolTip": "C:\\Users\\vlope\\OneDrive\\\u00C1rea de Trabalho\\Jhonies\\Senai\\Back-End\\Exercicios\\Jhonies-AT5\\Jhonies-At5Ex1\\Jhonies-At5Ex1\\ClientePJ.cs",
+              "RelativeToolTip": "Jhonies-At5Ex1\\ClientePJ.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T03:16:08.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientePF.cs",
+              "DocumentMoniker": "C:\\Users\\vlope\\OneDrive\\\u00C1rea de Trabalho\\Jhonies\\Senai\\Back-End\\Exercicios\\Jhonies-AT5\\Jhonies-At5Ex1\\Jhonies-At5Ex1\\ClientePF.cs",
+              "RelativeDocumentMoniker": "Jhonies-At5Ex1\\ClientePF.cs",
+              "ToolTip": "C:\\Users\\vlope\\OneDrive\\\u00C1rea de Trabalho\\Jhonies\\Senai\\Back-End\\Exercicios\\Jhonies-AT5\\Jhonies-At5Ex1\\Jhonies-At5Ex1\\ClientePF.cs",
+              "RelativeToolTip": "Jhonies-At5Ex1\\ClientePF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T03:16:08.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\vlope\\OneDrive\\\u00C1rea de Trabalho\\Jhonies\\Senai\\Back-End\\Exercicios\\Jhonies-AT5\\Jhonies-At5Ex1\\Jhonies-At5Ex1\\Cliente.cs",
+              "RelativeDocumentMoniker": "Jhonies-At5Ex1\\Cliente.cs",
+              "ToolTip": "C:\\Users\\vlope\\OneDrive\\\u00C1rea de Trabalho\\Jhonies\\Senai\\Back-End\\Exercicios\\Jhonies-AT5\\Jhonies-At5Ex1\\Jhonies-At5Ex1\\Cliente.cs",
+              "RelativeToolTip": "Jhonies-At5Ex1\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T03:16:07.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

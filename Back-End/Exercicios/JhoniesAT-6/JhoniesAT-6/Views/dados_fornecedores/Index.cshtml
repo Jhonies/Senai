@@ -1,0 +1,22 @@
+﻿@model JhoniesAT_6.Models.dados_fornecedores
+
+<title>@ViewData["Title"] - Cadastrar Fornecedores</title>
+
+<h2> Cadastrar Fornecedores</h2>
+
+<form asp-action="Create" method="post">
+	<label>Nome:</label>
+	<input asp-for="Nome_f" class="form-control" />
+	<br />
+
+	<label>CPF:</label>
+	<input asp-for="CNPJ" class="form-control" />
+	<br />
+
+	<label>E-mail:</label>
+	<input asp-for="Email_f" class="form-control" />
+	<br />
+
+	<button type="submit" class="btn btn-success"> </button>
+</form>
+

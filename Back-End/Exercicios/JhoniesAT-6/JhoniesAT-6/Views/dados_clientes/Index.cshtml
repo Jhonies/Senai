@@ -1,0 +1,42 @@
+﻿@model List<JhoniesAT_6.Models.dados_clientes>
+
+<title>@ViewData["Title"] - Consultar Clientes </title> 
+
+<h2> Lista de Clientes </h2>
+
+<form method="get" class="row mb-3">
+	<div class="col-md-10">
+		<input type="text" name="busca" placeholder="Buscar..." class="form-control"
+		value="@(Context.Request.Query["busca"])"/>
+	</div>
+
+	<div class="col-md-2">
+		<button type="submit" class="btn btn-primary w-100">Buscar</button>
+	</div>
+</form>
+
+<table class="table table-borderer">
+	<thead>
+		<tr>
+			<th>ID</th>
+			<th>Nome</th>
+			<th>CPF</th>
+			<th>E-mail</th>
+			<th>Paciente</th>
+
+		</tr>
+	</thead>
+
+	<tbody>
+		@foreach (var c in Model)
+		{
+			<tr>
+				<td>@c.Id</td>
+				<td>@c.Nome</td>
+				<td>@c.CPF</td>
+				<td>@c.Email</td>
+				<td>@c.Paciente</td>
+			</tr>
+		}
+	</tbody>
+</table>

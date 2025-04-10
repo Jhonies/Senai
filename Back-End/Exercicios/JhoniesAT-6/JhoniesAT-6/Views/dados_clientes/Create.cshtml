@@ -1,0 +1,25 @@
+﻿@model JhoniesAT_6.Models.dados_clientes
+
+<title>@ViewData["Title"] - Cadastrar Cliente</title>
+
+<h2> Cadastrar Cliente</h2>
+
+<form asp-action="Create" method="post">
+	<label>Nome:</label>
+	<input asp-for="Nome" class="form-control" />
+	<br />
+
+	<label>CPF:</label>
+	<input asp-for="CPF" class="form-control" />
+	<br />
+
+	<label>E-mail:</label>
+	<input asp-for="Email" class="form-control" />
+	<br />
+
+	<label>Paciente:</label>
+	<input asp-for="Paciente" class="form-control" />
+	<br />
+
+	<button type="submit" class="btn btn-success"> </button>
+</form>
