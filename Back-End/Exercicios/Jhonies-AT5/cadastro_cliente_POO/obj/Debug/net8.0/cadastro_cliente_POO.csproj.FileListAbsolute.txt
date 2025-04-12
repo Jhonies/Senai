@@ -1,0 +1,29 @@
+C:\Users\vlope\source\repos\cadastro_cliente_POO\bin\Debug\net8.0\cadastro_cliente_POO.exe
+C:\Users\vlope\source\repos\cadastro_cliente_POO\bin\Debug\net8.0\cadastro_cliente_POO.deps.json
+C:\Users\vlope\source\repos\cadastro_cliente_POO\bin\Debug\net8.0\cadastro_cliente_POO.runtimeconfig.json
+C:\Users\vlope\source\repos\cadastro_cliente_POO\bin\Debug\net8.0\cadastro_cliente_POO.dll
+C:\Users\vlope\source\repos\cadastro_cliente_POO\bin\Debug\net8.0\cadastro_cliente_POO.pdb
+C:\Users\vlope\source\repos\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlope\source\repos\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.AssemblyInfoInputs.cache
+C:\Users\vlope\source\repos\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.AssemblyInfo.cs
+C:\Users\vlope\source\repos\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.csproj.CoreCompileInputs.cache
+C:\Users\vlope\source\repos\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.dll
+C:\Users\vlope\source\repos\cadastro_cliente_POO\obj\Debug\net8.0\refint\cadastro_cliente_POO.dll
+C:\Users\vlope\source\repos\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.pdb
+C:\Users\vlope\source\repos\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.genruntimeconfig.cache
+C:\Users\vlope\source\repos\cadastro_cliente_POO\obj\Debug\net8.0\ref\cadastro_cliente_POO.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\bin\Debug\net8.0\cadastro_cliente_POO.exe
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\bin\Debug\net8.0\cadastro_cliente_POO.deps.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\bin\Debug\net8.0\cadastro_cliente_POO.runtimeconfig.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\bin\Debug\net8.0\cadastro_cliente_POO.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\bin\Debug\net8.0\cadastro_cliente_POO.pdb
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.AssemblyInfoInputs.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.AssemblyInfo.cs
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.csproj.CoreCompileInputs.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.sourcelink.json
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\obj\Debug\net8.0\refint\cadastro_cliente_POO.dll
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.pdb
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\obj\Debug\net8.0\cadastro_cliente_POO.genruntimeconfig.cache
+C:\Users\vlope\OneDrive\Área de Trabalho\Jhonies\Senai\Back-End\Exercicios\Jhonies-AT5\cadastro_cliente_POO\obj\Debug\net8.0\ref\cadastro_cliente_POO.dll
