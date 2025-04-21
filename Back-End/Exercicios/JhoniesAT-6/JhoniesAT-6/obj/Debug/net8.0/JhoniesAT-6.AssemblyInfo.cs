@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JhoniesAT-6")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32fada086181a7c9d61b3d85bccee5c351156c95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc44583db1caaf2393c6b07c415f3dc144efc4f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("JhoniesAT-6")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JhoniesAT-6")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
