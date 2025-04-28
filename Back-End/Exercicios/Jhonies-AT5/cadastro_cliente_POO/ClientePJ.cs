@@ -1,4 +1,5 @@
 ﻿namespace cadastro_cliente_POO;
+
 public class ClientePJ : Cliente
 {
     public string CNPJ { get; set; }
@@ -6,12 +7,16 @@ public class ClientePJ : Cliente
 
     public override double CalcularImposto() => ValorCompra * 0.2;
 
-    public override void ExibirResumo()
+    public override string ExibirResumo()
     {
-        base.ExibirResumo();
-        Console.WriteLine($"CNPJ: {CNPJ}");
-        Console.WriteLine($"IE: {InscricaoEstadual}");
-        Console.WriteLine($"Imposto: {CalcularImposto():C}");
-        Console.WriteLine($"Total a pagar: {ValorCompra + CalcularImposto():C}");
+        double imposto = CalcularImposto();
+        return $"--- Cliente Pessoa Jurídica ---\n" +
+               $"Nome: {Nome}\n" +
+               $"Endereço: {Endereco}\n" +
+               $"CNPJ: {CNPJ}\n" +
+               $"Inscrição Estadual: {InscricaoEstadual}\n" +
+               $"Valor da compra: {ValorCompra:C}\n" +
+               $"Imposto: {imposto:C}\n" +
+               $"Total a pagar: {ValorCompra + imposto:C}\n";
     }
 }

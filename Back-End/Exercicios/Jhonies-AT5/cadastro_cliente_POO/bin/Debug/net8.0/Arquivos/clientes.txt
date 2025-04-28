@@ -1,0 +1,36 @@
+--- Cliente Pessoa Física ---
+Nome: 
+Endereço: 
+CPF: 41042124825
+RG: 584650991
+Valor da compra: R$ 30.129.093,00
+Imposto: R$ 3.012.909,30
+Total a pagar: R$ 33.142.002,30
+
+--- Cliente Pessoa Física ---
+Nome: joao
+Endereço: joasjo
+CPF: 41042124825
+RG: 049120944
+Valor da compra: R$ 42.910,00
+Imposto: R$ 4.291,00
+Total a pagar: R$ 47.201,00
+
+--- Cliente Pessoa Jurídica ---
+Nome: joao
+Endereço: josao
+CNPJ: 402910
+Inscrição Estadual: 40210904
+Valor da compra: R$ 429.104,00
+Imposto: R$ 85.820,80
+Total a pagar: R$ 514.924,80
+
+--- Cliente Pessoa Física ---
+Nome: joao
+Endereço: 093201940
+CPF: 41042124825
+RG: 421421414
+Valor da compra: R$ 904.291.049.210,00
+Imposto: R$ 90.429.104.921,00
+Total a pagar: R$ 994.720.154.131,00
+

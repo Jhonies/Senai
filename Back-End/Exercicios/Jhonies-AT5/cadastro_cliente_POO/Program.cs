@@ -1,5 +1,5 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
+using System.IO;
 
 namespace cadastro_cliente_POO
 {
@@ -7,96 +7,123 @@ namespace cadastro_cliente_POO
     {
         static void Main()
         {
-            Console.WriteLine("=== Cadastro de Cliente ===");
+            string pasta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Arquivos");
+            Directory.CreateDirectory(pasta);
+            string caminhoArquivo = Path.Combine(pasta, "clientes.txt");
 
-            Console.Write("Digite o seu nome: ");
-            string nome = Console.ReadLine()?.Trim();
-
-            Console.Write("Digite o seu endereço: ");
-            string endereco = Console.ReadLine()?.Trim();
-
-            double valorCompra;
-            while (true)
+            string continuar;
+            do
             {
-                Console.Write("Digite o valor da compra: ");
-                string inputValor = Console.ReadLine();
-                if (double.TryParse(inputValor, out valorCompra) && valorCompra >= 0)
-                    break;
-                Console.WriteLine("Valor inválido! Digite um número válido e positivo.");
-            }
+                Console.WriteLine("=== Cadastro de Cliente ===");
 
-            char escolha;
-            while (true)
-            {
-                Console.Write("Você é pessoa jurídica (j) ou pessoa física (f)?: ");
-                string input = Console.ReadLine()?.ToLower();
-
-                if (!string.IsNullOrEmpty(input) && (input[0] == 'f' || input[0] == 'j'))
+                string nome;
+                do
                 {
-                    escolha = input[0];
-                    break;
+                    Console.Write("Digite o seu nome: ");
+                    nome = Console.ReadLine()?.Trim();
+
+                    if (string.IsNullOrWhiteSpace(nome))
+                        Console.WriteLine("Nome não pode ser vazio!");
+                } while (string.IsNullOrWhiteSpace(nome));
+
+                string endereco;
+                do
+                {
+                    Console.Write("Digite o seu endereço: ");
+                    endereco = Console.ReadLine()?.Trim();
+
+                    if (string.IsNullOrWhiteSpace(endereco))
+                        Console.WriteLine("Endereço não pode ser vazio!");
+                } while (string.IsNullOrWhiteSpace(endereco));
+
+                double valorCompra;
+                while (true)
+                {
+                    Console.Write("Digite o valor da compra: ");
+                    string inputValor = Console.ReadLine();
+                    if (double.TryParse(inputValor, out valorCompra) && valorCompra >= 0)
+                        break;
+                    Console.WriteLine("Valor inválido! Digite um número válido e positivo.");
                 }
 
-                Console.WriteLine("Entrada inválida! Digite 'f' para pessoa física ou 'j' para pessoa jurídica.");
-            }
-
-            Cliente cliente;
-
-            if (escolha == 'f')
-            {
-                ClientePF clientePF = new ClientePF
+                char escolha;
+                while (true)
                 {
-                    Nome = nome,
-                    Endereco = endereco,
-                    ValorCompra = valorCompra
-                };
+                    Console.Write("Você é pessoa jurídica (j) ou pessoa física (f)?: ");
+                    string input = Console.ReadLine()?.ToLower();
 
-                do
+                    if (!string.IsNullOrEmpty(input) && (input[0] == 'f' || input[0] == 'j'))
+                    {
+                        escolha = input[0];
+                        break;
+                    }
+
+                    Console.WriteLine("Entrada inválida! Digite 'f' para pessoa física ou 'j' para pessoa jurídica.");
+                }
+
+                Cliente cliente;
+
+                if (escolha == 'f')
                 {
-                    Console.Write("Digite seu CPF: ");
-                    clientePF.CPF = Console.ReadLine()?.Trim();
+                    ClientePF clientePF = new ClientePF
+                    {
+                        Nome = nome,
+                        Endereco = endereco,
+                        ValorCompra = valorCompra
+                    };
 
-                    if (!ValidadorCPF.ValidarCPF(clientePF.CPF))
-                        Console.WriteLine("CPF inválido! Digite novamente.");
-                } while (!ValidadorCPF.ValidarCPF(clientePF.CPF));
+                    do
+                    {
+                        Console.Write("Digite seu CPF: ");
+                        clientePF.CPF = Console.ReadLine()?.Trim();
 
+                        if (!ValidadorCPF.ValidarCPF(clientePF.CPF))
+                            Console.WriteLine("CPF inválido! Digite novamente.");
+                    } while (!ValidadorCPF.ValidarCPF(clientePF.CPF));
 
+                    do
+                    {
+                        Console.Write("Digite o seu RG: ");
+                        clientePF.RG = Console.ReadLine()?.Trim();
 
-                do
+                        if (!Validador.FormatoFlxRG(clientePF.RG))
+                            Console.WriteLine("RG inválido! Insira o seu RG corretamente");
+                    } while (!Validador.FormatoFlxRG(clientePF.RG));
+
+                    cliente = clientePF;
+                }
+                else
                 {
-                    Console.Write("Digite o seu RG: ");
-                clientePF.RG = Console.ReadLine()?.Trim();
+                    ClientePJ clientePJ = new ClientePJ
+                    {
+                        Nome = nome,
+                        Endereco = endereco,
+                        ValorCompra = valorCompra
+                    };
 
-                    if (!Validador.FormatoFlxRG(clientePF.RG))
-                        Console.WriteLine("RG inválido! Insira o seu RG corretamente");
-                } while (!Validador.FormatoFlxRG(clientePF.RG));
+                    Console.Write("Digite seu CNPJ: ");
+                    clientePJ.CNPJ = Console.ReadLine()?.Trim();
 
-      
+                    Console.Write("Digite sua Inscrição Estadual: ");
+                    clientePJ.InscricaoEstadual = Console.ReadLine()?.Trim();
 
-                cliente = clientePF;
-            }
-            else
-            {
-                ClientePJ clientePJ = new ClientePJ
-                {
-                    Nome = nome,
-                    Endereco = endereco,
-                    ValorCompra = valorCompra
-                };
+                    cliente = clientePJ;
+                }
 
-                Console.Write("Digite seu CNPJ: ");
-                clientePJ.CNPJ = Console.ReadLine()?.Trim();
+                Console.WriteLine("\n=== Resumo do Cliente ===");
+                string resumo = cliente.ExibirResumo(); // <-- chama o método corretamente
+                Console.WriteLine(resumo);
 
-                Console.Write("Digite sua Inscrição Estadual: ");
-                clientePJ.InscricaoEstadual = Console.ReadLine()?.Trim();
+                // Salva no arquivo
+                File.AppendAllText(caminhoArquivo, resumo + Environment.NewLine);
 
-                cliente = clientePJ;
-            }
+                // Pergunta se quer cadastrar mais alguém
+                Console.Write("\nDeseja cadastrar outra pessoa? (s/n): ");
+                continuar = Console.ReadLine()?.ToLower();
 
-            Console.WriteLine("\n=== Resumo do Cliente ===");
-            cliente.ExibirResumo();
+            } while (continuar == "s");
 
-            Console.WriteLine("\nObrigado por utilizar nosso sistema!");
+            Console.WriteLine("\n Cadastro finalizado. Dados salvos em 'clientes.txt'.");
         }
     }
 }

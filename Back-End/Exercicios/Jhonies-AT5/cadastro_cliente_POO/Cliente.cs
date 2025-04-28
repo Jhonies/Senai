@@ -1,4 +1,5 @@
 ﻿namespace cadastro_cliente_POO;
+
 public abstract class Cliente
 {
     public string Nome { get; set; }
@@ -6,11 +7,5 @@ public abstract class Cliente
     public double ValorCompra { get; set; }
 
     public abstract double CalcularImposto();
-
-    public virtual void ExibirResumo()
-    {
-        Console.WriteLine($"Nome: {Nome}");
-        Console.WriteLine($"Endereço: {Endereco}");
-        Console.WriteLine($"Valor da compra: {ValorCompra:C}");
-    }
+    public abstract string ExibirResumo();
 }
